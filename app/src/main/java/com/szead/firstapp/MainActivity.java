@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 String stringValue = textValue.getText().toString();
                 int originalValue = Integer.parseInt(stringValue);
                 int newValue = MyWorker.doubleTheValue(originalValue);
-
+                //proba comment
                 if (newValue == Integer.MIN_VALUE) {
                     textValue.setText("1");
                 } else textValue.setText(Integer.toString(newValue));
